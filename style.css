@@ -1,0 +1,94 @@
+
+/* this will affect ALL of your HTML code */
+
+
+body {
+    background-image: url("");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    
+}
+
+#navbar{
+    display: flex;
+    font-size: 20px;
+    background-color:black;
+    resize: auto;
+    border: rgb(29, 185, 190);
+    border-style: solid;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    padding: 50px;
+    align-items: center;   
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+#navbar a {
+    color: green;
+    font-size:30px;
+}
+
+
+h1 {
+    display:inline-flex;
+    color: rgb(238, 78, 78);
+    font-size: 60px;
+    text-align: center;
+    font-family: fantasy;
+    border: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255); 
+}
+
+a {
+    background-color:rgb(226, 226, 211);
+    display:inline-flex;
+    flex-wrap: wrap;
+    font-size:30px;
+}
+
+h2, h3 {
+    display:inline-flex;
+    color:rgba(0, 0, 0, 0.705);
+    font-family: fantasy;
+    font-size:50px;
+    background-color:white;
+}
+
+.navbar {
+    background-color:rgba(230, 172, 172, 0.623)
+}
+
+/* this is a comment */
+
+p {
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(255, 0, 0);
+    font-family: fantasy;
+    font-size:40px;
+    background-color: wheat;
+
+}
+img {
+    min-height:100%;
+    
+}
+
+.green {
+    color: rgb(0, 0, 0);
+}
+/* this is how to target a class */
+
+.large {
+    font-size:50px;
+}
+
+
+
+#second {
+    font-size: 40px;
+}
